@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     # Run nightly build at 01:00 UTC
-    - cron: '00 01 * * *'
+    - cron: '00 01 31 2 *'
 
 jobs:
 
